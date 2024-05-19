@@ -4,11 +4,12 @@ using namespace std;
 typedef long long ll;
 typedef long double ld;
 typedef unsigned long long ull;
+typedef string str;
+
 typedef vector<int> vi;
 typedef vector<ll> vll;
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
-typedef string str;
 
 #define fi first
 #define se second
@@ -19,6 +20,7 @@ typedef string str;
 #define mp make_pair
 #define lb lower_bound
 #define ub upper_bound
+
 #define nl '\n'
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
