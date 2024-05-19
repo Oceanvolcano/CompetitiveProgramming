@@ -1,2 +1,2 @@
 # CompetitiveProgramming
-Tempat Menyimpan Catatan CP
+Tempat menyimpan catatan atau materi mengenai CP.
