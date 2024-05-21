@@ -22,10 +22,11 @@ typedef pair<ll, ll> pll;
 #define ub upper_bound
 
 #define nl '\n'
+#define sz(x) int(size(x))
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 
-const int MAX_N = 1e5 + 5;
+const int MAXN = 2e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
