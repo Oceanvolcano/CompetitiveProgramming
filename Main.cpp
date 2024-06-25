@@ -22,14 +22,17 @@ typedef pair<ll, ll> pll;
 #define ub upper_bound
 
 #define nl '\n'
-#define sz(x) int(size(x))
+#define sz(x) int((x).size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 
-const int MAXN = 2e5 + 5;
+#define each(a, x) for (auto& (a) : (x))
+
+const ll MX = 2e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
+mt19937 rng((uint32_t)chrono::steady_clock::now().time_since_epoch().count()); 
 
 void solve() {
     
