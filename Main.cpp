@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-typedef long double ld;
-typedef unsigned long long ull;
-typedef string str;
+using ll = long long;
+using ld = long double;
+using ull = unsigned long long;
+using str = string;
 
-typedef vector<int> vi;
-typedef vector<ll> vll;
-typedef pair<int, int> pii;
-typedef pair<ll, ll> pll;
+using vii = vector<int>;
+using vll = vector<ll>;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
 
 #define fi first
 #define se second
