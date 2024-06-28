@@ -22,6 +22,7 @@ using pll = pair<ll, ll>;
 #define ub upper_bound
 
 #define nl '\n'
+#define LSOne(x) ((x) & (-x))
 #define sz(x) int((x).size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
