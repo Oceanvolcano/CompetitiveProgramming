@@ -23,6 +23,6 @@ int main() {
     }
 }
 
-//Formula = floor(k-1)/(n-1) + k
+//Formula = floor((k-1)/(n-1)) + k
 //https://codeforces.com/problemset/problem/1352/C
 //Tags = Number Theory, Binary Search
