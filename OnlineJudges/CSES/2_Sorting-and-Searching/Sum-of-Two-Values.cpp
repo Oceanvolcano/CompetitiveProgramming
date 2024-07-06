@@ -1,14 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+using ll = long long;
+
 #define nl '\n'
 #define fi first
 #define se second
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
-using ll = long long;
 
 int main() {
+   ios::sync_with_stdio(false);
+   cin.tie(nullptr);
    ll n, x;
    cin >> n >> x;
 
