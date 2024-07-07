@@ -26,7 +26,7 @@ using pll = pair<ll, ll>;
 #define sz(x) int((x).size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define db(x) cerr << ">>> " << #x << " -> " << (x) << '\n'
+#define dbg(x) cerr << '\n' << (#x) << " is " << (x) << '\n';
 
 #define each(a, x) for (auto& (a) : (x))
 
@@ -34,7 +34,7 @@ const ll MX = 2e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
-const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
+const int dx[4]{1, 0, -1, 0}, dy[4]{0, 1, 0, -1};
 mt19937 rng((uint32_t)chrono::steady_clock::now().time_since_epoch().count()); 
 
 void solve() {
