@@ -10,7 +10,7 @@ using vii = vector<int>;
 using vll = vector<ll>;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
-
+//Macros ----------------------------------------------------------------------------------------------
 #define fi first
 #define se second
 #define pb push_back
@@ -30,13 +30,19 @@ using pll = pair<ll, ll>;
 #define dbg(x) cerr << '\n' << (#x) << " is " << (x) << '\n';
 
 #define each(a, x) for (auto& (a) : (x))
-
+//Constant --------------------------------------------------------------------------------------------
 const ll MX = 2e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const ld EPS = 1e-9;
 const int dx[4]{1, 0, -1, 0}, dy[4]{0, 1, 0, -1};
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+#ifdef LOCAL
+#include "debug.h"
+#else
+#define debug(...)
+#endif
 
 void solve() {
     
