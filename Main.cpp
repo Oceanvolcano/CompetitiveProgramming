@@ -4,7 +4,6 @@ using namespace std;
 using ll = long long;
 using ld = long double;
 using ull = unsigned long long;
-using str = string;
 
 using vii = vector<int>;
 using vll = vector<ll>;
@@ -27,7 +26,6 @@ using pll = pair<ll, ll>;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
-#define dbg(x) cerr << '\n' << (#x) << " is " << (x) << '\n';
 
 #define each(a, x) for (auto& (a) : (x))
 //Constant --------------------------------------------------------------------------------------------
